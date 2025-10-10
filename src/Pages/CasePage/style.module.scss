@@ -11,13 +11,12 @@
   }
 
   .case-info {
+    display: flex;
+    gap: 16px;
+
     .case-img {
       width: 156px;
       border-radius: 4px;
-      float: left;
-      shape-outside: margin-box;
-      margin-right: 16px;
-      margin-bottom: 8px;
     }
 
     .case-text {
@@ -25,6 +24,16 @@
       word-wrap: break-word;
       word-break: break-word;
       text-align: start;
+      font-size: 20px;
     }
+  }
+
+  .case-text2 {
+    margin-top: 8px;
+    text-align: start;
+  }
+
+  .case-button {
+    align-self: flex-end;
   }
 }

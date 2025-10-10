@@ -22,6 +22,7 @@ const App = () => {
           }
         />
         <Route path="case" element={<CasePage name={name} id={id} />} />
+        <Route path="" />
       </Route>
       <Route path="*" element={<Navigate to="/landing" replace />} />
     </Routes>
