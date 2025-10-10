@@ -7,7 +7,7 @@ const Header = () => {
         Министерство <br /> Бледности
       </span>
       <img
-        src="src/assets/mb-logo.png"
+        src="public/assets/mb-logo.png"
         alt=""
         className={styles['header-container-logo']}
       />

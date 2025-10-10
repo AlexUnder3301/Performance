@@ -6,7 +6,7 @@ const CasePage = ({ name, id }) => {
       <h3 className={styles['case-heading']}>{`Агент ${name}`}</h3>
       <div className={styles['case-info']}>
         <img
-          src={`src/assets/${id}.jpg`}
+          src={`public/assets/${id}.jpg`}
           alt=""
           className={styles['case-img']}
         />
