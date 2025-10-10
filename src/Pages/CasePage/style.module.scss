@@ -1,0 +1,30 @@
+.case-container {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin-top: 16px;
+
+  .case-heading {
+    margin: 0;
+    margin-bottom: 6px;
+    align-self: flex-start;
+  }
+
+  .case-info {
+    .case-img {
+      width: 156px;
+      border-radius: 4px;
+      float: left;
+      shape-outside: margin-box;
+      margin-right: 16px;
+      margin-bottom: 8px;
+    }
+
+    .case-text {
+      text-wrap: wrap;
+      word-wrap: break-word;
+      word-break: break-word;
+      text-align: start;
+    }
+  }
+}
