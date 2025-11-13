@@ -18,8 +18,7 @@ const LandingPage = () => {
     '  > ЗАПУСК ПРОТОКОЛА ПРОВЕРКИ...',
   ];
 
-  const match = useMatch('/landing');
-  console.log(match);
+  // const match = useMatch('/landing');
 
   useEffect(() => {
     sequenceRef.current = setInterval(() => {
@@ -54,6 +53,9 @@ const LandingPage = () => {
             В данном курсе, вы пройдете несколько испытаний на профпригодность,
             по окончанию теста, будет вынесен вердикт, готовы ли вы секретному
             заданию.
+            <br />
+            Ранее вы получили письмо, с закодированным идентификатором, в поле
+            нужно ввести именно его.
           </p>
           <button
             className={styles['landing-button']}

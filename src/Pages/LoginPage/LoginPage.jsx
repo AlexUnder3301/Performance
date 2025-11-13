@@ -29,7 +29,7 @@ const LoginPage = ({ name, setName, id, setId }) => {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    if (id === 'kirill' || id === 'fail') {
+    if (id === 'swag' || id === 'froy') {
       setIsLoading(true);
       setTimeout(() => {
         navigate('/case');

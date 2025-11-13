@@ -4,13 +4,15 @@ import styles from './style.module.scss';
 const CasePage = ({ name, id }) => {
   const navigate = useNavigate();
 
+  console.log(id);
+
   return (
     <div className={styles['case-container']}>
       <h3 className={styles['case-heading']}>{`Агент ${name}`}</h3>
       <div className={styles['case-info']}>
         <img src={`assets/${id}.jpg`} alt="" className={styles['case-img']} />
         <section className={styles['case-text']}>
-          {id === 'fail' ? (
+          {id === 'swag' ? (
             <>
               <b>Возраст: 22 года</b> <br />
               <b>Рост: ~175 см</b> <br />
@@ -29,7 +31,7 @@ const CasePage = ({ name, id }) => {
       </div>
       <section className={styles['case-text2']}>
         <b>Характеристика:</b> <br />
-        {id === 'fail' ? (
+        {id === 'swag' ? (
           <>
             Агент {name} обладает неплохими навыками хапания, навыки оцениваются
             на 8/10. <br /> Агент бывал бледным, причем не раз, но Министерство
