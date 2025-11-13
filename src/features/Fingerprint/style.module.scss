@@ -1,0 +1,26 @@
+.fingerpint-container {
+  align-self: center;
+  margin-top: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  text-align: center;
+  position: relative;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.fingerprint {
+  width: 100px;
+  height: 100px;
+  background-image: url(/src/assets/fingerprint.svg);
+  background-size: 100px;
+  position: absolute;
+  top: 100px;
+}

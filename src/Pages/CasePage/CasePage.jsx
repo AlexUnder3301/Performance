@@ -13,15 +13,15 @@ const CasePage = ({ name, id }) => {
           {id === 'fail' ? (
             <>
               <b>Возраст: 22 года</b> <br />
-              <b>Рост: ~177 см</b> <br />
+              <b>Рост: ~175 см</b> <br />
               <b>Вес: ~70 кг</b> <br />
               <b>Слизень: false</b> <br />
             </>
           ) : (
             <>
               <b>Возраст: 22 года</b> <br />
-              <b>Рост: ~180 см</b> <br />
-              <b>Вес: ~75 кг</b> <br />
+              <b>Рост: ~182 см</b> <br />
+              <b>Вес: ~76 кг</b> <br />
               <b>Слизень: false</b> <br />
             </>
           )}
@@ -56,7 +56,7 @@ const CasePage = ({ name, id }) => {
       <button
         onClick={(e) => {
           e.preventDefault();
-          navigate('/landing');
+          navigate('/briefing');
         }}
         className={styles['case-button']}
       >

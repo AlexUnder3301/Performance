@@ -1,0 +1,14 @@
+.briefing-container {
+  padding: 16px;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+
+  .briefing-heading {
+    font-size: 36px;
+  }
+
+  .briefing-button {
+    align-self: flex-end;
+  }
+}

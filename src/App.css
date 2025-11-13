@@ -10,3 +10,11 @@
   background: linear-gradient(45deg, #0b1f15, #1a2a1f, #1a0b2a);
   color: #2deba9;
 }
+
+.load {
+  white-space: pre-wrap;
+  font-family: monospace;
+  text-align: start;
+  width: 300px;
+  margin-top: 16px;
+}
